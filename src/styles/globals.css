@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:95vh;
+    background-color: #20222a;
+}
+.formContainer{
+    width: 100%;
+    min-height: 50vh;
+}
+.form{
+    min-width: 100%;
+}
+.mainContainer{
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formNavigation{
+    display:flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.stepper{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
